@@ -13,7 +13,6 @@ To use the code you'd need:
 * Nltk
 * Simhash from the above [project](https://github.com/leonsim/simhash).
 * It's written in python. So preferebly run it on Linux.
-
 ## To use it
 * Place whatever text files you want in the corpus directory. All of them will be read and each one will be mapped against the other to show the similarity score.
 * The file to run is **hashtest.py**.
