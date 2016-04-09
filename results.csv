@@ -1,0 +1,54 @@
+ 
+Unfiltered,direct,corpus.
+ ,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
+001.txt,0,23,25,20,22,1
+003 (copy).txt, ,0,4,19,19,24
+003.txt, , ,0,23,23,26
+002 (copy).txt, , , ,0,2,21
+002.txt, , , , ,0,23
+001 (copy).txt, , , , , ,0
+ 
+Stopwords,not,removed,and,but,stemmed,first,with,Porter,stemmer,and,then,Snowball,stemmer.
+ ,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
+001.txt,0,23,22,17,16,1
+003 (copy).txt, ,0,5,24,23,22
+003.txt, , ,0,25,24,21
+002 (copy).txt, , , ,0,1,16
+002.txt, , , , ,0,15
+001 (copy).txt, , , , , ,0
+ 
+Stemming,not,done.,But,stopwords,removed,with,nltk,stopword,list.
+ ,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
+001.txt,0,31,31,36,36,2
+003 (copy).txt, ,0,4,29,29,33
+003.txt, , ,0,31,31,33
+002 (copy).txt, , , ,0,0,36
+002.txt, , , , ,0,36
+001 (copy).txt, , , , , ,0
+ 
+Stopwords,removed,and,then,both,stemmers,used.
+ ,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
+001.txt,0,34,32,28,26,1
+003 (copy).txt, ,0,6,24,26,33
+003.txt, , ,0,28,30,31
+002 (copy).txt, , , ,0,4,29
+002.txt, , , , ,0,27
+001 (copy).txt, , , , , ,0
+ 
+Stopwords,removed,and,stemmed,and,then,bigrams,taken.
+ ,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
+001.txt,0,29,27,34,36,3
+003 (copy).txt, ,0,8,27,27,28
+003.txt, , ,0,27,29,28
+002 (copy).txt, , , ,0,4,31
+002.txt, , , , ,0,33
+001 (copy).txt, , , , , ,0
+ 
+Stopwords,removed,and,stemmed,and,then,trigrams,taken.
+ ,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
+001.txt,0,29,31,28,28,5
+003 (copy).txt, ,0,10,31,31,30
+003.txt, , ,0,29,29,28
+002 (copy).txt, , , ,0,4,31
+002.txt, , , , ,0,29
+001 (copy).txt, , , , , ,0
