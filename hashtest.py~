@@ -41,7 +41,7 @@ def main(path):
             writer.writerow([" "])
             writer.writerow([i for i in desc.split()])
             record=[]
-            record+=[['Table']+[key for key in hashset.keys()]]
+            record+=[[' ']+[key for key in hashset.keys()]]
             for k in hashset.keys():
                 record+=[[k]+hashlist[k]]
             for item in record:

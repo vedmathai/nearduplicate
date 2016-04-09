@@ -1,6 +1,6 @@
  
 Unfiltered,direct,corpus.
- ,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
+Table,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
 001.txt,0,23,25,20,22,1
 003 (copy).txt, ,0,4,19,19,24
 003.txt, , ,0,23,23,26
@@ -9,7 +9,7 @@ Unfiltered,direct,corpus.
 001 (copy).txt, , , , , ,0
  
 Stopwords,not,removed,and,but,stemmed,first,with,Porter,stemmer,and,then,Snowball,stemmer.
- ,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
+Table,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
 001.txt,0,23,22,17,16,1
 003 (copy).txt, ,0,5,24,23,22
 003.txt, , ,0,25,24,21
@@ -18,7 +18,7 @@ Stopwords,not,removed,and,but,stemmed,first,with,Porter,stemmer,and,then,Snowbal
 001 (copy).txt, , , , , ,0
  
 Stemming,not,done.,But,stopwords,removed,with,nltk,stopword,list.
- ,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
+Table,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
 001.txt,0,31,31,36,36,2
 003 (copy).txt, ,0,4,29,29,33
 003.txt, , ,0,31,31,33
@@ -27,7 +27,7 @@ Stemming,not,done.,But,stopwords,removed,with,nltk,stopword,list.
 001 (copy).txt, , , , , ,0
  
 Stopwords,removed,and,then,both,stemmers,used.
- ,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
+Table,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
 001.txt,0,34,32,28,26,1
 003 (copy).txt, ,0,6,24,26,33
 003.txt, , ,0,28,30,31
@@ -36,7 +36,7 @@ Stopwords,removed,and,then,both,stemmers,used.
 001 (copy).txt, , , , , ,0
  
 Stopwords,removed,and,stemmed,and,then,bigrams,taken.
- ,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
+Table,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
 001.txt,0,29,27,34,36,3
 003 (copy).txt, ,0,8,27,27,28
 003.txt, , ,0,27,29,28
@@ -45,7 +45,7 @@ Stopwords,removed,and,stemmed,and,then,bigrams,taken.
 001 (copy).txt, , , , , ,0
  
 Stopwords,removed,and,stemmed,and,then,trigrams,taken.
- ,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
+Table,001.txt,003 (copy).txt,003.txt,002 (copy).txt,002.txt,001 (copy).txt
 001.txt,0,29,31,28,28,5
 003 (copy).txt, ,0,10,31,31,30
 003.txt, , ,0,29,29,28
