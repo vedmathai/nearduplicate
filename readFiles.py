@@ -5,7 +5,7 @@ from itertools import combinations
 from nltk.stem.porter import *
 from nltk.stem.snowball import SnowballStemmer
 
-path='/corpus'
+path='./corpus'
 mypath=abspath(join(getcwd(), path))
 
 

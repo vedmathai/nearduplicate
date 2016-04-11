@@ -3,7 +3,7 @@ from simhash import Simhash, SimhashIndex
 import re
 from itertools import combinations
 import csv
-
+import time
 path='./corpus'
 
 
@@ -48,4 +48,6 @@ def main(path):
                 writer.writerow(item)
 
 if __name__=='__main__':
+    start_time = time.time()
     main(path)
+    print("--- %s seconds ---" % (time.time() - start_time))
